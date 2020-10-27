@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bacground"
+    tools:context=".MainFragment">
+
+    <RelativeLayout
+        android:paddingTop="?actionBarSize"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/firstCard"
+            android:layout_marginTop="50dp"
+            android:layout_centerHorizontal="true"
+            app:cardCornerRadius="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_gravity="center"
+                    android:layout_width="300dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/tim">
+
+                </ImageView>
+                <TextView
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="KK TRIJUMF"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Košarkaški klub iz Niša\nOdaberite najbolje za vaše dete"/>
+
+            </LinearLayout>
+
+           </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/secondCard"
+            android:layout_below="@id/firstCard"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+            app:cardCornerRadius="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_gravity="center"
+                    android:layout_width="300dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/trijum_partizan">
+
+                </ImageView>
+                <TextView
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Saradnja KK Trijumf i KK Partizan"></TextView>
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:text="Strateško predeljenje Košarkaškog kluba Trijumf iz Niša je da na najbolji način obezbedi budućnost svim svojim selekcijama. Upravo zato imamo dugoročnu saradnju sa KK Partizan iz Beograda koji spada u red evropski najtrofejnijih klubova. Pozivamo vas da nam se pridružite i obezbedite sebi i svojoj deci sjajnu i sigurnu budućnost."/>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+        <LinearLayout
+            android:id="@+id/social"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/secondCard"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/fbBtn"
+                android:layout_margin="10dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/fb_icon"/>
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/instaBtn"
+                android:layout_margin="10dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/insta_icon"/>
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/siteBtn"
+                android:layout_margin="10dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/logoprovidan"/>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+</ScrollView>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsActivity">
+
+
+        <RelativeLayout
+            android:layout_marginTop="30dp"
+            android:id="@+id/buttonHolder"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/zakaziObavestenja"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Zakazi obavestenja"></Button>
+
+            <Button
+                android:id="@+id/otkaziObavestenje"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/zakaziObavestenja"
+                android:text="Otkazi obavestenja"></Button>
+
+
+        </RelativeLayout>
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_below="@id/buttonHolder"
+        android:id="@+id/napomena"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Limit za salnje poruke je 160 karaktera!"/>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_margin="10dp"
+            android:layout_below="@id/napomena"
+            android:id="@+id/porukaZaRoditelja"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Poruka za slanje roditeljima"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <com.google.android.material.textfield.TextInputEditText
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+    <Button
+        android:layout_margin="10dp"
+        android:id="@+id/sacuvajPoruku"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/porukaZaRoditelja"
+        android:text="Sacuvaj poruku"></Button>
+
+</RelativeLayout>

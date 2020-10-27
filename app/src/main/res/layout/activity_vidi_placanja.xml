@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VidiPlacanjaActivity">
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"
+        android:id="@+id/placanjaTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="Placanja"></TextView>
+    <View
+        android:layout_margin="5dp"
+        android:id="@+id/separator"
+        android:layout_below="@id/placanjaTitle"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_below="@id/separator"
+        android:id="@+id/placanjaRecy"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</RelativeLayout>

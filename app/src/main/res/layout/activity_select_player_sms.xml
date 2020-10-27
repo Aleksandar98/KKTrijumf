@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelectPlayerSmsActivity">
+
+    <RelativeLayout
+        android:layout_margin="5dp"
+        android:id="@+id/sendHolder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/posaljiSmsBtn"
+            android:padding="20dp"
+            android:textSize="18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Posalji SMS izabranima"
+            app:icon="@drawable/ic_send"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+            ></com.google.android.material.button.MaterialButton>
+<!--        <TextView-->
+<!--            android:layout_margin="5dp"-->
+<!--            android:textStyle="bold"-->
+<!--            android:textColor="#FFF"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:gravity="center"-->
+<!--            android:text="Posalji Poruke Izabranima"/>-->
+<!--        <ImageView-->
+<!--            ce-->
+<!--            android:layout_width="30dp"-->
+<!--            android:layout_height="30dp"-->
+<!--            android:src="@drawable/ic_send"/>-->
+    </RelativeLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_below="@id/sendHolder"
+        android:id="@+id/recyViewNisuPlatili"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</RelativeLayout>

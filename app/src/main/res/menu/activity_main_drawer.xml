@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+        <item android:id="@+id/nav_item_1"
+            android:icon="@drawable/ic_group"
+            android:title="Grupe 2003" />
+        <item android:id="@+id/nav_item_2"
+            android:icon="@drawable/ic_group"
+            android:title="Grupe 2004" />
+        <item android:id="@+id/nav_item_3"
+            android:icon="@drawable/ic_group"
+            android:title="Grupe 2005" />
+        <item android:id="@+id/nav_item_4"
+            android:icon="@drawable/ic_group"
+            android:title="Grupe 2006" />
+        <item android:id="@+id/nav_item_5"
+            android:icon="@drawable/ic_group"
+            android:title="Grupe 2007" />
+        <item android:id="@+id/nav_item_6"
+            android:icon="@drawable/ic_group"
+            android:title="Grupe 2008" />
+        <item android:id="@+id/nav_item_7"
+            android:icon="@drawable/ic_group"
+            android:title="Grupe 2009" />
+        <item android:id="@+id/nav_item_8"
+            android:icon="@drawable/ic_group"
+            android:title="Grupe 2010" />
+        <item android:id="@+id/nav_item_9"
+            android:icon="@drawable/ic_group"
+            android:title="Grupe 2011" />
+        <item android:id="@+id/nav_item_10"
+            android:icon="@drawable/ic_group"
+            android:title="Grupe 2012" />
+        <item android:id="@+id/nav_item_11"
+            android:icon="@drawable/ic_group"
+            android:title="Grupe 2013" />
+    </group>
+    <item android:title="Podesavanja">
+        <menu>
+            <item android:id="@+id/nav_item_options"
+                android:icon="@drawable/ic_settings"
+                android:title="Podesavanja" />
+            />
+            <item android:id="@+id/nav_item_feed"
+                android:icon="@drawable/ic_settings"
+                android:title="Feed" />
+            />
+        </menu>
+    </item>
+    </menu>

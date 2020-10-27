@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "562636579128",
+    "firebase_url": "https://kktrijumf-46d8c.firebaseio.com",
+    "project_id": "kktrijumf-46d8c",
+    "storage_bucket": "kktrijumf-46d8c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:562636579128:android:e883561b45e4feb286a1cd",
+        "android_client_info": {
+          "package_name": "com.aca.kktrijumf"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "562636579128-2gohf2a56vu0kd4bfechsmedbp6klp3i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aca.kktrijumf",
+            "certificate_hash": "ddd984500d71a2138b46decd7f229725773941de"
+          }
+        },
+        {
+          "client_id": "562636579128-cpj3v0d84ikvobfcd8bnchk32bf5479p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5PzrW6lFzHrhQLSYqDfmavRSsY5gDqgY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "562636579128-cpj3v0d84ikvobfcd8bnchk32bf5479p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
